@@ -3,9 +3,10 @@
  */
 
 function setup() {
-    createCanvas(700, 700);
+    createCanvas(700, 200);
 }
 
 function draw() {
     background(70);
 }
+    
