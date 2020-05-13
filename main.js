@@ -1,12 +1,20 @@
 /**
- * First project time!
+ * How to modifying the pannel,
  */
 
 function setup() {
-    createCanvas(700, 400);
+    createCanvas(400, 400);
 }
 
 function draw() {
-    background(70);
+    background(0);
+
+    let hr = hour();
+    let mn = minute();
+    let sd = second();
+
+    fill(255);
+    noStroke();
+    text(hr + ':' + mn + ':' + sd, 10 , 200);
 }
     
