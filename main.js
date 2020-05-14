@@ -4,6 +4,7 @@
 
 function setup() {
     createCanvas(400, 400);
+    angleMode(DEGREES);
 }
 
 function draw() {
@@ -26,6 +27,16 @@ function draw() {
     stroke(255);
     noFill();
     ellipse(200,200,300,300);
+
+    
+
+    stroke(255, 100, 150);
+    /**
+     * x, y, distance(r x), distance(r,x) but the last one is angle.
+     * we can make a half of circle by modifying the angle.
+     */
+    arc(200, 200, 300, 300, 0, 360); 
+
 
 }
     
