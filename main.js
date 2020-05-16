@@ -79,5 +79,8 @@ function draw() {
 
     stroke(255);
     point(0,0);
+
+    // creating the a new clock.
+    
 }
     
