@@ -3,7 +3,7 @@
  */
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(1000, 1000);
     angleMode(DEGREES);
 }
 
@@ -81,6 +81,6 @@ function draw() {
     point(0,0);
 
     // creating the a new clock.
-    
+
 }
     
