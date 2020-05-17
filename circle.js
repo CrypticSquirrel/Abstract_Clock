@@ -1,7 +1,7 @@
 function setup() { 
       
     // Create Canvas of given size 
-    createCanvas(580, 450); 
+    createCanvas(1000, 1000); 
 } 
   
 function draw() { 
@@ -17,9 +17,9 @@ function draw() {
     strokeWeight(5); 
       
     // Use translate function 
-    translate(width / 2, height / 2); 
+    translate(width/2, height/2); 
       
-    translate(p5.Vector.fromAngle(millis() / 1000, 200)); 
+    translate(p5.Vector.fromAngle(millis() / 500, 200)); 
       
     // Create rectangle 
     rect(10, 10, 40, 30); 
